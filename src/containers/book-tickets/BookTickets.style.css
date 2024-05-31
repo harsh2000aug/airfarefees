@@ -1,0 +1,577 @@
+.cm-book-container .cm-left-col {
+    width: calc(100% - 300px);
+}
+
+.cm-book-container .cm-right-col {
+    width: 300px;
+}
+
+.cm-book-ticket-container {
+    background-color: #eee;
+}
+
+p.cancellation-easy {
+    background-color: #4fb67a;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.cm-flex-type-1.flight-description {
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.cm-iti-item {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px #d7d5d5;
+    margin-bottom: 15px;
+}
+
+.cm-iti-item:last-of-type {
+    margin-bottom: 0;
+}
+
+p.cancellation-easy .fa.fa-check {
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.cm-flex.summary-title {
+    align-items: center;
+}
+
+p.cancellation-easy .fa-check:before {
+    color: green;
+    font-weight: bold;
+}
+
+.summary-title h3 {
+    font-size: 20px;
+}
+
+.cm-flex.summary-title h3 {
+    margin-left: 15px;
+}
+
+.cart-time {
+    background-color: #fff;
+    box-shadow: 0px 0px 3px gray;
+    padding: 15px 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.cart-time .title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cm-flex-type-1.cart-timer .timecount {
+    font-size: 27px;
+    font-weight: bold;
+    color: #8b3eea;
+}
+
+.cm-flex-type-1.cart-timer p {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.cm-price-fare-detail {
+    box-shadow: 0px 0px 3px gray;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.cm-price-fare-detail .title {
+    background-color: #8b3eea;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px 15px;
+}
+
+.cm-price-fare-body .price {
+    padding: 5px 15px;
+}
+
+.cm-price-fare-body .price p:first-of-type {
+    width: 52%;
+}
+
+.cm-book-container .cm-right-col {
+    position: sticky;
+    top: -150px;
+}
+
+.cm-price-fare-body .total-amt {
+    padding: 10px 15px;
+    background-color: #8b3eea38;
+    border-top: 1px dotted gray;
+    font-weight: bold;
+}
+
+.cm-price-fare-body .descr-price-fare {
+    padding: 15px 15px;
+}
+
+.cm-passeger-detail {
+    padding: 0px 15px;
+}
+
+.cm-form-section {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 10px;
+}
+
+.cm-passeger-detail {
+    padding: 0px 15px;
+}
+
+.cm-form-section {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.passger-head-info {
+    align-items: center;
+}
+
+.passger-head-info img {
+    width: 45px;
+    margin-right: 20px;
+}
+
+.cm-form-field-grp.cm-pay-info-wrap {
+    padding: 0px 15px;
+}
+
+.passger-body-text {
+    padding: 0px 15px;
+}
+
+.cm-terms-conditionscontent {
+    background-color: #fff;
+    padding: 15px 15px;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.cm-section-body-refundable {
+    font-size: 13px;
+    color: #1a58c4;
+    background: #f1f8fd;
+    border-left: 5px solid #1a58c4;
+    padding: 10px 40px 10px 13px;
+    margin: 18px 0 18px;
+    clear: both;
+    text-align: initial;
+    border-radius: 3px;
+}
+
+.cm-form-head .covid-txt:before {
+    content: '\f00c';
+    color: #3ab54a;
+    font-family: fontawesome;
+    margin: 0;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 15px;
+}
+
+.cm-form-head .covid-txt {
+    border-radius: 3px;
+    font-size: 14px;
+    color: #2ba23b;
+    background: #b8f3c0;
+    padding: 10px 10px 10px 35px;
+    margin-bottom: 20px;
+    text-align: initial;
+    position: relative;
+}
+
+.cm-form-head ul.fraList li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 0 0 12px 20px;
+    margin: 0;
+    vertical-align: top;
+    width: 50%;
+    text-align: initial;
+    font-size: 13px;
+}
+
+.refund-details {
+    display: flex;
+}
+
+.cm-form-head ul.fraList li:before {
+    content: '\f00c';
+    color: #3ab54a;
+    font-family: fontawesome;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    font-size: 15px;
+}
+
+.refund-details img {
+    width: 100px;
+    height: 100px;
+}
+
+.cm-booking-refund {
+    border: 1px solid #c5c5c5;
+    padding: 10px 10px;
+    width: calc(50% - 30px);
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.cm-booking-refund input {
+    margin-right: 10px;
+}
+
+/* .cm-booking-refund input[type=radio]~span::after {
+    border-radius: 100%;
+    border: 2px solid rgba(0,0,0,.7);
+    content: "";
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+} */
+
+.travel-protection-block ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.travel-protection-block ul li {
+    line-height: 18px;
+    font-size: 13px;
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    margin: 0 0 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.travel-protectlist {
+    padding: 20px 0px;
+}
+
+.travel-protection-block ul li::before {
+    position: absolute;
+    color: #4fb67a;
+    font-family: fontawesome;
+    font-weight: 900;
+    content: "\f00c";
+    left: 0;
+}
+
+.cm-form-head .upgrade-txt {
+    border-radius: 5px;
+    border: 1px solid #005dba;
+    padding: 7px;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.col-sm-3.hidden-xs img {
+    position: absolute;
+    top: 0;
+    width: 180px;
+    right: -6px;
+}
+
+.travel-protection-block {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.ptb-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ptb-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-blue {
+    color: #8b3eea;
+}
+
+h3.cm-section-head {
+    padding-top: 10px;
+}
+
+.cm-travel-programm {
+    padding: 14px 15px;
+}
+
+.cm-travel-programm table {
+    border-collapse: collapse;
+}
+
+.cm-travel-programm table th {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0px;
+}
+
+.cm-travel-programm tbody tr td {
+    padding: 15px 15px;
+}
+
+.cm-prim-gray {
+    background-color: #c5c5c5;
+}
+
+.cm-travel-programm .learn-more {
+    position: relative;
+}
+
+.cm-travel-programm .learn-more.collapsed:before {
+    content: "\f106";
+    font-family: fontawesome;
+    position: absolute;
+    right: -15px;
+}
+
+.cm-travel-programm .learn-more:before {
+    content: "\f107";
+    font-family: fontawesome;
+    position: absolute;
+    right: -15px;
+}
+
+.cm-travel-programm td.bottom a {
+    color: #8b3eea;
+}
+
+.cm-travel-programm td.tdwidth {
+    text-align: center;
+}
+
+.show-traveler-terms.active {
+    display: block;
+}
+
+.show-traveler-terms.hide {
+    display: none;
+}
+
+ul.nav.nav-tabs {
+    list-style: none;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+ul.nav.nav-tabs li {
+    display: inline-flex;
+    padding: 0px 15px 5px 15px;
+}
+
+ul.nav.nav-tabs li.active {
+    border-bottom: 2px solid black;
+}
+
+ul.nav.nav-tabs li.active a {
+    color: #000;
+    font-weight: bold;
+}
+
+.active.tabtersm {
+    display: block;
+}
+
+.hide.tabtersm {
+    display: none;
+}
+
+.cm-travel-programm .tabtersm {
+    padding: 30px 15px;
+
+}
+
+.cm-travel-programm .tabtersm p {
+    margin: 10px 0px;
+}
+
+.cm-travel-programm .brb-list {
+    margin-left: 20px;
+}
+
+.cm-payment-detail-body {
+    padding: 10px 10px;
+}
+
+.cm-flex-type-1.payment-type-detail:nth-child(1) {
+    /* border-bottom: 1px solid gray; */
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+.cm-flex-type-1.payment-type-detail input[type=radio] {
+    margin-right: 10px;
+}
+
+.cm-flex-type-1.payment-type-detail {
+    align-items: center;
+}
+
+.cm-payment-detail-footer {
+    border-top: 1px dashed gray;
+    padding: 8px 0px;
+}
+
+.cm-payment-detail-footer img {
+    width: 94px;
+}
+
+.cm-payment-detail-footer div {
+    margin: auto;
+}
+
+.alert-msgs {
+    margin-bottom: 15px;
+    color: #1b75bc;
+    border: 1px solid #1b75bc;
+    padding: 10px;
+    border-radius: 5px;
+    background: #eaf1f7;
+}
+
+.cm-payment-detail-body p {
+    padding: 10px 0px;
+}
+
+.step-continue button {
+    padding: 18px 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.step-continue {
+    width: 100%;
+    text-align: center;
+}
+
+.cm-flex-type-1.cart-timer {
+    width: 65%;
+    margin: auto;
+}
+
+.cm-content.cm-flex-type-1 .cm-col img {
+    width: 50px;
+}
+
+@media(max-width: 1200px) {
+    .cm-book-ticket-container .cm-page-center {
+        padding: 30px 0;
+    }
+}
+
+@media(max-width: 1024px) {
+    .cm-book-container .cm-page-center.cm-flex-type-1 {
+        flex-wrap: wrap;
+    }
+
+    .cm-book-container .cm-left-col,
+    .cm-book-container .cm-right-col {
+        width: 100%;
+        padding: 0;
+    }
+
+    .cm-book-container .cm-right-col {
+        position: unset;
+    }
+}
+
+@media(max-width: 480px) {
+
+    .refund-details,
+    .flight-description {
+        flex-direction: column;
+    }
+
+    .flight-description .summary-title {
+        padding-bottom: 10px;
+    }
+
+    .cm-booking-refund {
+        width: calc(50% - 10px);
+    }
+
+    .cm-payment-detail-footer div {
+        width: 80%;
+    }
+
+    .cm-travel-programm .cm-flex {
+        overflow-x: auto;
+    }
+
+    .cm-travel-programm table {
+        width: 475px;
+    }
+
+    .cm-travel-programm tbody tr td {
+        padding: 5px 5px;
+    }
+
+    .cm-passeger-detail {
+        padding: 0px 15px 15px;
+    }
+
+    .cm-form-field-grp.cm-pay-info-wrap {
+        padding: 0px 15px 15px;
+    }
+
+    .cm-rev-policy ul {
+        padding-left: 0px;
+    }
+
+    .cm-booking-refund span {
+        font-size: 14px;
+    }
+
+    .cm-booking-refund {
+        padding: 5px;
+    }
+
+    .tcp_price {
+        font-size: 14px;
+    }
+
+    .cm-fl-book-form .cm-form-section .cm-form-field {
+        margin-bottom: 10px;
+    }
+
+    .cm-fl-book-form .cm-form-section .cm-form-field:last-of-type {
+        margin-bottom: 0px;
+    }
+
+}

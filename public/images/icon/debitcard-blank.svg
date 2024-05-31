@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="23" viewBox="0 0 37 23">
+  <g id="Debit_Credit_Card" data-name="Debit/Credit Card" transform="translate(0.417)">
+    <g id="Rectangle_3452" data-name="Rectangle 3452" transform="translate(-0.417)" fill="none" stroke="#4f8ffc" stroke-width="1">
+      <rect width="37" height="23" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="36" height="22" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_3453" data-name="Rectangle 3453" transform="translate(-0.417 6)" fill="#4f8ffc" stroke="#4f8ffc" stroke-width="1">
+      <rect width="37" height="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="36" height="4" fill="none"/>
+    </g>
+  </g>
+</svg>

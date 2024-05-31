@@ -1,0 +1,300 @@
+header .country-inp {
+    display: flex;
+    border-radius: 4px;
+}
+
+header .country-picker-selector input {
+    background-color: #efefef;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+header .country-picker-selector {
+    margin-left: auto;
+    display: flex;
+    width: 100px;
+    padding-left: 12px;
+}
+
+header .country-flag-box {
+    margin-right: 5px;
+}
+
+header .country-flag-box img {
+    padding: 5px 5px;
+}
+
+header .country-flag-box input[type="text"] {
+    display: none;
+}
+
+header .country-picker-box,
+header .price-picker-box {
+    position: absolute;
+    width: 170px;
+    right: 0;
+    left: auto;
+    top: 100%;
+}
+
+header .currancy-name {
+    width: 60px;
+}
+
+header .price-picker-box li {
+    padding: 2px 5px;
+}
+
+footer .country-picker-selector .country-inp {
+    margin-top: 15px;
+}
+
+/* .country-flag-box, .currancy-name{
+    overflow: hidden;
+} */
+.country-picker-selector {
+    width: 80%;
+    position: relative;
+}
+
+.country-inp {
+    display: flex;
+}
+
+.country-inp img {
+    width: 35px;
+    padding: 0 5px;
+}
+
+/* .country-picker-selector input {
+    width: 100%;
+    border: 1px none;
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+    background-color: transparent;
+} */
+
+.country-picker-box,
+.price-picker-box {
+    box-shadow: 0 0 10px #dedede;
+    height: 250px;
+    width: 100%;
+    overflow: auto;
+    background-color: #fff;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: -1;
+    transition: .3s;
+    transform: translateY(20px);
+}
+
+.country-picker-box.active,
+.price-picker-box.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: unset;
+    transform: translateY(0px);
+    z-index: 99;
+}
+
+.country-picker-item {
+    color: #666;
+    font-size: 11px;
+    padding: 7px;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    transition: .3s;
+}
+
+.country-picker-item:hover {
+    background-color: #dad5d5;
+}
+
+.country-flag {
+    flex: 0 0 auto;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    line-height: 16px;
+}
+
+.country-flag.au {
+    background-image: url(../../../public/images/flags/au.svg);
+}
+
+.country-flag.ca {
+    background-image: url(../../../public/images/flags/ca.svg);
+}
+
+.country-flag.hk {
+    background-image: url(../../../public/images/flags/hk.svg);
+}
+
+.country-flag.in {
+    background-image: url(../../../public/images/flags/in.svg);
+}
+
+.country-flag.id {
+    background-image: url(../../../public/images/flags/id.svg);
+}
+
+.country-flag.my {
+    background-image: url(../../../public/images/flags/my.svg);
+}
+
+.country-flag.nz {
+    background-image: url(../../../public/images/flags/nz.svg);
+}
+
+.country-flag.ph {
+    background-image: url(../../../public/images/flags/ph.svg);
+}
+
+.country-flag.qa {
+    background-image: url(../../../public/images/flags/qa.svg);
+}
+
+.country-flag.sg {
+    background-image: url(../../../public/images/flags/sg.svg);
+}
+
+.country-flag.sa {
+    background-image: url(../../../public/images/flags/sa.svg);
+}
+
+.country-flag.th {
+    background-image: url(../../../public/images/flags/th.svg);
+}
+
+.country-flag.us {
+    background-image: url(../../../public/images/flags/en.svg);
+}
+
+.country-flag.us {
+    background-image: url(../../../public/images/flags/en.svg);
+}
+
+.country-flag.ae {
+    background-image: url(../../../public/images/flags/ae.svg);
+}
+
+.country-flag.uk {
+    background-image: url(../../../public/images/flags/uk.svg);
+}
+
+.country-flag.vn {
+    background-image: url(../../../public/images/flags/vn.svg);
+}
+
+.country-picker-item__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.currancy-name {
+    position: relative;
+}
+
+.price-picker-box {
+    padding: 15px 5px;
+}
+
+.price-picker-box li {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 13px;
+    list-style: none;
+}
+
+.price-picker-box li span {
+    margin-right: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+footer .price-picker-box {
+    height: 210px;
+}
+
+footer .country-picker-selector input {
+    background-color: #efefef;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    color: #000;
+}
+
+@media(max-width: 767px) {
+    header .country-picker-selector {
+        width: 75px;
+        padding-left: 6px;
+    }
+
+    .country-inp img {
+        width: 30px;
+    }
+
+    header .currancy-name {
+        width: 35px;
+    }
+
+    .country-picker-selector input {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    header .country-picker-box,
+    header .price-picker-box {
+        right: 0;
+    }
+
+    footer .country-picker-box,
+    .price-picker-box {
+        height: 200px;
+    }
+
+    footer .country-picker-selector {
+        width: 80%;
+    }
+
+    .country-picker-selector input {
+        background-color: #efefef;
+        border: none;
+        border-radius: 4px;
+        outline: none;
+        padding: 10px;
+        width: 100%;
+        color: #000;
+    }
+
+    .price-picker-box li span {
+        margin-right: 5px;
+        font-weight: bold;
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+    }
+
+    .price-picker-box li {
+        margin: 0;
+        padding: 0 0 0 35px;
+        font-size: 12px;
+        list-style: none;
+    }
+}

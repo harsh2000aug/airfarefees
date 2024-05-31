@@ -1,0 +1,287 @@
+.cm-form-section + .cm-form-section,
+.cm-fl-book-form {
+  margin-top: 20px;
+}
+
+.cm-form-section .cm-form-head {
+  padding: 8px 15px;
+  /* text-align: center; */
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cm-form-section .cm-form-head h3 {
+  font-size: 18px;
+}
+
+.cm-phone-inp {
+  display: flex;
+}
+
+.cm-phone-inp input[type="text"] {
+  width: 50px;
+  border-radius: 5px 0px 0px 5px;
+  border-right: 0;
+}
+
+.cm-phone-inp input[type="tel"] {
+  width: calc(100% - 15px);
+  border-radius: 0px 5px 5px 0px;
+  border-left: 0;
+}
+
+.cm-pass-contact-info .cm-form-field {
+  align-items: center;
+}
+
+.cm-pass-contact-info .cm-form-field label {
+  padding-left: 15px;
+  width: 250px;
+}
+
+.cm-pass-contact-info .cm-form-field input[type="tel"],
+.cm-pass-contact-info .cm-form-field input[type="email"] {
+  min-width: 300px;
+}
+
+.cm-pass-info-wrap .cm-form-field-third h3 {
+  width: 120px;
+  font-size: 16px;
+  align-self: center;
+  padding: 15px 10px;
+  margin-right: 10px;
+}
+
+
+
+.cm-date-selector input[type="text"] {
+  padding-left: 35px;
+}
+
+.cm-pass-info-wrap {
+  margin-top: 30px;
+}
+
+.cm-fl-book-form .cm-form-section h5 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.cm-pass-info-wrap + .cm-pass-info-wrap {
+  border-top: 1px solid #999;
+  padding-top: 30px;
+}
+
+.cm-fl-res-fares-tab.cm-form-section {
+  padding-top: 0;
+  margin-top: 30px;
+}
+
+.cm-gd-total {
+  font-size: 22px;
+}
+
+.cm-rev-policy h4 {
+  font-size: 22px;
+}
+
+.cm-rev-policy {
+  margin: 20px 0;
+}
+
+.cm-rev-policy ul {
+  padding-left: 16px;
+  margin-top: 10px;
+}
+
+.cm-rev-policy ul li + li {
+  margin-top: 5px;
+}
+
+.cm-tnc-section label{
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 600;
+}
+.cm-tnc-section label:last-of-type{
+  margin-bottom: 0;
+}
+.cm-tnc-section label input{
+  margin-right: 10px;
+}
+.cm-tnc-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.cm-tnc-section input {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+/* .tnc-section {
+  padding: 50px 0 0;
+} */
+.tnc-section h4 {
+  margin-bottom: 10px;
+}
+.cm-tnc-section p {
+  margin-bottom: 25px;
+}
+
+.cm-book-ticket-container .cm-form-section-submit button {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.cm-book-ticket-container > div > .cm-left-col {
+  width: calc(100% - 400px);
+}
+
+.cm-book-ticket-container > div > .cm-right-col {
+  width: 400px;
+  position: sticky;
+  top: 10px;
+}
+
+.cm-booking-cta h4 {
+  background-color: var(--primCol);
+  color: var(--whiteCol);
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.cm-booking-cta a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.cm-booking-cta h5 {
+  font-size: 22px;
+}
+
+.cm-booking-cta {
+  border: 1px solid #eee;
+  font-size: 14px;
+}
+
+.cm-booking-cta .cm-content {
+  padding: 10px;
+}
+.cm-book-container .cm-left-col .cart-time{
+  display: none;
+}
+
+/* Responsive */
+
+@media(max-width: 1200px){
+  .cm-book-ticket-container > div > .cm-left-col{
+    width: calc(100% - 320px);
+  }
+  .cm-book-ticket-container > div > .cm-right-col{
+    width: 320px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cm-pass-info-wrap .cm-form-field-fourth .cm-form-field {
+    width: 50%;
+  }
+
+  .cm-pass-info-wrap .cm-form-field-fourth {
+    flex-wrap: wrap;
+  }
+
+  .cm-pass-contact-info .cm-form-field label,
+  .cm-phone-inp {
+    width: 100%;
+    padding: 0;
+  }
+  .cm-book-container .cm-left-col .cart-time{
+    display: block;
+    margin-bottom: 15px;
+  }
+  .cm-book-container .cm-right-col .cart-time{
+    display: none;
+  }
+  .cm-pass-contact-info .cm-form-field {
+    flex-wrap: wrap;
+  }
+
+  .cm-pass-contact-info .cm-form-field-grp {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cm-book-ticket-container > div > .cm-left-col {
+    width: 100%;
+  }
+
+  .cm-book-ticket-container > div > .cm-right-col {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .cm-book-ticket-container .cm-page-center {
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+  }
+
+  .cm-booking-cta h4 {
+    font-size: 20px;
+  }
+
+  .cm-pass-info-wrap .cm-form-field-third {
+    flex-wrap: wrap;
+  }
+
+  .cm-pass-info-wrap .cm-form-field-third h3 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .cm-pass-info-wrap .cm-form-field-third.cm-top .cm-form-field,
+  .cm-pass-info-wrap .cm-form-field-third .cm-form-field {
+    width: 100%;
+  }
+
+  .cm-fl-book-form {
+    padding-bottom: 0;
+  }
+
+  .cm-form-section .cm-form-head h3 {
+    font-size: 18px;
+  }
+
+  .cm-tnc-section h3 {
+    font-size: 20px;
+  }
+
+  .cm-fl-res-fares-tab table {
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cm-pass-info-wrap .cm-form-field-fourth .cm-form-field {
+    width: 100%;
+  }
+
+  .cm-book-ticket-container .cm-form-field-half > .cm-form-field {
+    width: 100%;
+    padding: 0;
+  }
+
+  .cm-book-ticket-container .cm-form-field-half {
+    flex-wrap: wrap;
+  }
+  .cm-pass-contact-info .cm-form-field input[type="tel"], .cm-pass-contact-info .cm-form-field input[type="email"]{
+    min-width: 190px;
+  }
+  .travel-protection-block img.image-bnr {
+      display: none;
+  }
+}

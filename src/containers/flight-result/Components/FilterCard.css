@@ -1,0 +1,48 @@
+.Hv20 {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(25,27,36,0.16),0 -1px 4px rgba(25,27,36,0.04);
+    border-radius: 8px;
+    margin: 0 auto 16px;
+    align-items: center;
+    height: 78px;
+}
+
+
+.Hv20-option:not(:last-of-type) {
+    border-right: 1px solid #d9dde8;
+}
+
+.Hv20-option.Hv20-mod-state-active {
+    color: #191b24;
+}
+
+.Hv20-option {
+    flex: 1 1 auto;
+    color: #5a6072;
+    cursor: pointer;
+    padding: 0 8px;
+    margin: 12px 0;
+}
+
+.keel-chp *, .keel-chp *:before, .keel-chp *:after {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.Hv20-option:not(:last-of-type) .Hv20-content {
+    border-right: none;
+}
+
+.Hv20-title {
+    font-family: 'Gibson-SemiBold','Gibson',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+} 

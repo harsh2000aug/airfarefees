@@ -1,0 +1,469 @@
+.hero-text {
+  margin-bottom: 30px;
+}
+
+.hero-text h1,
+.hero-text p {
+  color: #fff;
+}
+
+.head-section {
+  padding: 100px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/new/head-banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.booking-form-main .round-labels {
+  border: 1px solid #f3f3f3;
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.booking-form-main .round-labels.checked-label {
+  border: 1px solid #8b3eea;
+  background: #8b3eea;
+}
+
+.booking-form-main .round-labels span {
+  color: #000;
+}
+
+.booking-form-main .round-labels.checked-label span {
+  color: #fff;
+}
+
+.booking-form {
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #fff;
+  border-bottom: 8px solid #8b3eea;
+  border-radius: 10px;
+}
+
+.booking-form input[type="text"] {
+  padding: 10px 0 10px 30px;
+}
+
+.booking-form i {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  font-size: 16px;
+  color: #8b3eea;
+}
+
+.services {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.service-text {
+  margin-bottom: 30px;
+}
+
+.service-text h2,
+.tst-text h2 {
+  font-size: 32px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.services img {
+  height: 100%;
+  width: 100%;
+}
+
+.services .text {
+  padding: 0 0 0 10px;
+}
+
+.services h3 {
+  color: #8b3eea;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.pack-detail {
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #a7a7a7;
+}
+
+.package-image img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.package-text-top {
+  padding: 10px;
+}
+
+.package-text-top h3 {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.package-text-top p {
+  margin-bottom: 10px;
+}
+
+.package-text-top button {
+  background: #8b3eea;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.top-two img {
+  width: 100%;
+}
+
+.top-two {
+  margin: 10px;
+  position: relative;
+  width: calc(50% - 20px);
+}
+
+.top-two .choose-text {
+  background: linear-gradient(180deg, #0000, #000);
+  bottom: 0;
+  color: #fff;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.top-two .choose-text h3 {
+  padding-left: 20px;
+}
+
+.quotes i {
+  color: #8b3eea;
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+
+.star i {
+  color: #ffe234;
+  font-size: 20px;
+}
+
+.tst-slide {
+  position: relative;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+.slick-track {
+  padding: 5px 0;
+}
+
+.tst-slide h3 {
+  color: #8b3eea;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.service-text p,
+.tst-slide p {
+  margin-bottom: 15px;
+}
+
+.slider-tst ul.slick-dots {
+  align-items: center !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  margin-top: 20px !important;
+}
+
+.slick-dots li button {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.slick-dots li {
+  display: inline-block;
+  padding: 0;
+  position: relative;
+}
+
+.testimonials-slider ul.slick-dots li.slick-active button {
+  background-color: #8b3eea !important;
+}
+
+.testimonials-slider ul.slick-dots li button {
+  background-color: #717171 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  font-size: 0 !important;
+  margin-right: 10px !important;
+  outline: none !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.slick-dots li button:before {
+  display: none;
+}
+
+.slick-dots {
+  bottom: -35px !important;
+}
+
+.calltoact {
+  background: #8b3eea;
+}
+
+.smiling-girl {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+}
+
+.smiling-girl img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+}
+
+.smiling-girl span {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #8b3eea;
+  position: absolute;
+  top: 20px;
+  right: 120px;
+}
+
+.smiling-girl span i {
+  color: #fff;
+  font-size: 35px;
+}
+
+.smiling-girl p {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.smiling-girl a {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.smiling-girl a i {
+  margin-right: 10px;
+  font-size: 26px;
+}
+
+@media(max-width:1023px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+}
+
+@media(max-width:767px) {
+  .gap {
+    padding: 30px 0;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+
+  .col-25 {
+    width: 49%;
+  }
+
+  h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .common-text {
+    margin-bottom: 20px;
+  }
+
+  .head-section {
+    padding: 30px 0;
+  }
+
+  .hero-text {
+    margin-bottom: 15px;
+  }
+
+  .location-slides {
+    width: 49%;
+    margin-bottom: 10px;
+  }
+
+  .location-text {
+    padding: 10px;
+  }
+
+  .location-text h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .location-text p {
+    margin-bottom: 10px;
+  }
+
+  .location-text span {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .padding-btm {
+    padding-bottom: 30px;
+  }
+
+  .testimonials-slides p {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:480px) {
+  .gap {
+    padding: 15px 0;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+
+  .col-25 {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .common-text {
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .toggle {
+    padding: 5px 15px;
+  }
+
+  .toggle i {
+    font-size: 16px;
+  }
+
+  .inner-menu {
+    width: 100%;
+    left: 0;
+  }
+
+  .booking-form input,
+  .booking-form select {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .hero-text {
+    margin-bottom: 10px;
+  }
+
+  .airlines-area {
+    width: calc(100% / 3);
+  }
+
+  .location-slides {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .padding-btm {
+    padding-bottom: 15px;
+  }
+
+  .services .text {
+    padding: 0 0 0 0px;
+    margin-top: 10px;
+  }
+
+  .smiling-girl a {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+
+  .col-40.smiling-girl {
+    margin-bottom: 15px;
+  }
+
+  .smiling-girl span {
+    right: 60px;
+  }
+}

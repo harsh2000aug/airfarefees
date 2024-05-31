@@ -1,0 +1,60 @@
+.cm-contact-wrapper .cm-left-col ul li {
+  width: calc(33.33% - 30px);
+  margin: 0 15px;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.cm-contact-wrapper .cm-left-col ul li i {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  font-size: 24px;
+}
+
+.cm-contact-wrapper .cm-left-col ul li address {
+  font-style: normal;
+}
+
+.cm-contact-wrapper .cm-right-col h3 {
+  margin-bottom: 20px;
+}
+
+.cm-contact-wrapper .cm-right-col {
+  margin-top: 30px;
+}
+
+.cm-contact-wrapper .cm-right-col button {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .cm-contact-wrapper .cm-left-col ul li {
+    width: 100%;
+  }
+
+  .cm-contact-wrapper .cm-left-col ul {
+    flex-wrap: wrap;
+  }
+
+  .cm-form-field-half > .cm-form-field {
+    width: 100%;
+    padding: 0 !important;
+  }
+
+  .cm-form-field-half,
+  .cm-form-field-third,
+  .cm-form-field-fourth {
+    flex-wrap: wrap;
+  }
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,309 @@
+.ryanair-title {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.ryanair-title h1 {
+  position: relative;
+}
+
+.ryanair-title h1 span {
+  color: #8b3eea;
+}
+
+.southwest-title h1 span {
+  color: #304cb2;
+}
+
+.ryanair-title h1::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background-color: #8b3eea;
+}
+
+.southwest-title h1 {
+  position: relative;
+}
+
+.southwest-title h1::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background-color: #304cb2;
+}
+
+.ryanair-title h1::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 1px;
+  background-color: #8b3eea;
+}
+
+.southwest-title h1::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 1px;
+  background-color: #304cb2;
+}
+
+.ryanair-content p {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.ryanair-content h3 {
+  margin-bottom: 10px;
+}
+
+.ryanair-content ul li {
+  list-style: none;
+}
+
+.ryanair-content ul li h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.support-help {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+}
+
+.support-help:last-of-type {
+  margin-right: 0;
+}
+
+.support-help h3 {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.head-icon i {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(#304cb2, #c6161c);
+  text-align: center;
+  color: #fff;
+  line-height: 48px;
+  font-size: 24px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.southwest-cards {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #304cb2;
+  /* padding: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.image-text {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  color: #fff;
+  z-index: 999;
+  content: "Los Angeles";
+  top: 0;
+  left: 0;
+}
+
+.card-image {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-text {
+  padding: 0 10px;
+}
+
+.card-text p {
+  color: #c6161c;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.card-text p i {
+  margin-right: 2px;
+}
+
+.card-text a {
+  margin-bottom: 10px;
+}
+
+.second-color {
+  color: #304cb2;
+}
+
+.southwest-head-title {
+  margin-bottom: 30px;
+}
+
+.no-padding {
+  padding-bottom: 0px !important;
+}
+
+.mobile-view,
+.mobile-number {
+  display: none;
+}
+
+.cm-space-between {
+  justify-content: space-between;
+}
+
+.cm-space-between:hover {
+  background-color: #304cb259;
+}
+
+@media (max-width: 767px) {
+  .cm-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .ryanair-title {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .ryanair-content p {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .ryanair-content h3 {
+    font-size: 18px;
+  }
+
+  .ryanair-content ul li h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .support-help {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+
+  .southwest-cards {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cm-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .on-mobile {
+    display: none;
+  }
+
+  .mobile-view {
+    display: block;
+  }
+
+  .southwest-added-section {
+    display: none;
+  }
+
+  .head-icon i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+  }
+
+  .support-help h3 {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .support-help p {
+    font-size: 12px;
+  }
+
+  .mobile-number {
+    background-color: #304cb2;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .mobile-number p {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .mobile-number a {
+    background-color: #fff;
+    border-radius: 20px;
+    color: #000;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 21px;
+    padding: 5px 25px;
+    margin-top: 10px;
+  }
+
+  .cm-srch-inp {
+    width: 49%;
+  }
+
+  .cm-form-field.date-field {
+    width: 49%;
+  }
+
+  .select-type .cm-class-select,
+  .select-type .cm-trav-select {
+    width: 49%;
+    margin-bottom: 10px;
+  }
+
+  .mobile-number {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .cm-fixed-footer-cta {
+    background-color: #304cb2;
+  }
+}

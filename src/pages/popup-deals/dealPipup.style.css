@@ -1,0 +1,483 @@
+.Modal {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  transition: 0.7s ease;
+  background: rgb(0 0 0 / 0.5);
+  height: 930px;
+}
+
+.modal-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.modal-content {
+  background: #fff;
+  animation: fadeIn 0.2s;
+  max-height: 700px;
+}
+
+.modal-content h3 {
+  font-size: 20px;
+}
+
+.modal-desk-none {
+  display: none;
+}
+
+a.cm-btn.cm-bg-alaska.cm-black-col.cm-wt-700.cm-btn-lg {
+  background: black;
+  color: #ffff;
+}
+
+/* Popup Page new style */
+
+.popup-img-airline {
+  width: 80px;
+}
+
+.reservation-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 99999;
+  background-color: #fff;
+  display: none;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.reservation-inner-pop {
+  text-align: center;
+  border-radius: 20px;
+  background-image: linear-gradient(#8b3eea, #20b4f4);
+  padding: 30px 0;
+  height: 350px;
+  z-index: 1;
+}
+
+.wrapper {
+  padding: 0 20px;
+}
+
+.popup-main {
+  display: flex;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.close-btn img {
+  width: 100%;
+}
+
+.call-number {
+  padding-bottom: 40px;
+  width: 50%;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.call-number strong {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.call-number strong span h2 {
+  font-size: 45px;
+}
+
+.bxn-offer {
+  display: flex;
+}
+
+.bxn-offer span {
+  font-size: 30px;
+}
+
+.bxn-offer img {
+  width: 60px;
+  height: 60px;
+}
+
+.call-img img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ffff;
+  border-radius: 50%;
+}
+
+.call-btn-popup {
+  color: #ffff;
+  font-size: 18px;
+  margin-top: 55px;
+}
+
+.call-btn-popup span {
+  font-size: 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  padding: 5px 17px;
+  display: inline-block;
+  margin-left: 21px;
+  color: #000;
+  background-color: #fff;
+}
+
+.call-now-arrow {
+  width: 100%;
+  text-align: end;
+}
+
+.call-now-arrow img {
+  width: 50px;
+}
+
+.footer-btn {
+  background-color: #004154;
+  padding: 5px 10px;
+}
+
+.bottom-number {
+  padding: 0 20px;
+}
+
+.bottom-number strong {
+  background: #004255;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: -1px;
+}
+
+.footer-text {
+  background: #fff;
+  padding: 15px 0px;
+}
+
+.footer-text h3 {
+  color: #8b3eea;
+  font-size: 30px;
+}
+
+.footer-btn {
+  background-image: linear-gradient(#8b3eea, #20b4f4);
+  padding: 5px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-btn span {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-right: 30px;
+}
+
+.footer h3 {
+  padding-bottom: 20px;
+}
+
+.footer-btn strong {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.footer-btn p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.bottom-number img {
+  width: 37px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.Modal {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+  /* Modal Responsive */
+  .Modal {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    transition: 0.7s ease;
+    display: block;
+  }
+
+  .modal-body {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .modal-content {
+    background: #fff;
+    animation: fadeIn 0.2s;
+    max-height: 700px;
+  }
+
+  .modal-content h3 {
+    font-size: 20px;
+    padding: 5px 0px;
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .modal-header {
+    background: black;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+  }
+
+  .modal-header span {
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 0px 6px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+  }
+
+  .modal-body .support-customer {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    margin: auto;
+    display: block;
+    box-shadow: 0px 0px 10px 0px #54c7de;
+  }
+
+  .modal-body a.callnow-button {
+    background: green;
+    width: 40px;
+    height: 40px;
+    /* padding: 10px 23px; */
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    margin: auto;
+    color: #fff;
+  }
+
+  .modal-footer {
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .modal-footer .footer-support {
+    width: 100px;
+  }
+
+  .pop-modal-mob {
+    display: none;
+    animation: fadeIn 0.2s;
+  }
+
+  /* Modal Responsive */
+}
+
+/* Airlines theme */
+.delta-theme {
+  background-image: linear-gradient(#282f43, #e01933);
+}
+
+.aeromexico-theme {
+  background-image: linear-gradient(#e91b2f, #0b2343);
+}
+
+.united-theme {
+  background-image: linear-gradient(#6244bb, #006080);
+}
+
+.alaska-theme {
+  background-image: linear-gradient(#01426a, #2774ae);
+}
+
+.jetblue-theme {
+  background-image: linear-gradient(#0033a0, #00205b);
+}
+
+.southwest-theme {
+  background-image: linear-gradient(#304cb2, #c6161c);
+}
+
+.westjet-theme {
+  background-image: linear-gradient(#00aaa6, #003c71);
+}
+
+.copa-theme {
+  background-image: linear-gradient(#26e5bb, #0032a0);
+}
+
+.virgin-theme {
+  background-image: linear-gradient(#5b056a, #c52032);
+}
+
+.iberia-theme {
+  background-image: linear-gradient(#d7192d, #f5af0d);
+}
+
+.royal-jordanian-theme {
+  background-image: linear-gradient(#e12815, #b18446);
+}
+
+.british-theme {
+  background-image: linear-gradient(#ce210f, #3a62a2);
+}
+
+.ryan-theme {
+  background-image: linear-gradient(#08399a, #f1c931);
+}
+
+.air-france-theme {
+  background-image: linear-gradient(#051039, #ff0000);
+}
+
+.klm-theme {
+  background-image: linear-gradient(#072b45, #00a1de);
+}
+
+.singapore-theme {
+  background-image: linear-gradient(#00266b, #ff9f00);
+}
+
+.lot-polish-theme {
+  background-image: linear-gradient(#074991, #d70913);
+}
+
+.ppupbtn-css {
+  padding: 10px 34px;
+  display: inline-block;
+  margin: 10px 15px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 35px;
+  border-radius: 20px;
+}
+
+.time-popupdeal {
+  margin: 20px 10px;
+}
+
+.ringing_phone {
+  border: solid 5px #e6effe;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background: url('/public/phoneRotate.png') center center no-repeat;
+  text-align: center;
+  display: inline-block;
+  background-size: 28px;
+}
+
+.footer-call-btn {
+  display: flex;
+  color: #fff;
+  font-size: 35px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.ringing_phone {
+  animation-name: trin;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes trin {
+  from {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  20%,
+  32%,
+  44%,
+  56%,
+  68% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  23%,
+  35%,
+  47%,
+  59%,
+  71% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  26%,
+  38%,
+  50%,
+  62%,
+  74% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  29%,
+  41%,
+  53%,
+  65%,
+  77% {
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}

@@ -1,0 +1,307 @@
+.hero-text {
+  margin-bottom: 30px;
+}
+
+.hero-text h1,
+.hero-text p {
+  color: #fff;
+}
+
+.head-section {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/new/home-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.booking-form {
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.booking-form input[type="text"] {
+  padding: 10px 0 10px 30px;
+}
+
+.booking-form i {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  font-size: 16px;
+  color: #8b3eea;
+}
+
+/* top locations */
+.location-slides {
+  width: 24%;
+}
+
+.location-image {
+  height: 250px;
+}
+
+.location-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.location-text {
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: .5s;
+}
+
+.location-slides:hover .location-text {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.location-text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.location-text p {
+  margin-bottom: 10px;
+}
+
+.location-text span {
+  font-weight: 600;
+}
+
+/* top airlines */
+.airlines-area {
+  width: calc(100% / 6);
+}
+
+.airlines-area img {
+  width: 100%;
+}
+
+/* testimonials css */
+.testimonials-slides {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 15px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.testimonials-slides p {
+  margin-bottom: 15px;
+}
+
+.testimonials-slides img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.testimonials-slides h3 {
+  font-size: 16px;
+  color: #8b3eea;
+}
+
+.testimonials-slider ul {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.testimonials-slider ul li {
+  margin: 0 0px;
+}
+
+.testimonials-slider ul li button {
+  background: #d9d9d9;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  font-size: 0;
+}
+
+.testimonials-slider ul li.slick-active button {
+  background: #8b3eea;
+}
+
+.slick-track {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 0px !important;
+}
+
+@media(max-width:1023px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+}
+
+@media(max-width:767px) {
+  .gap {
+    padding: 30px 0;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+
+  .col-25 {
+    width: 49%;
+  }
+
+  h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .common-text {
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    margin-bottom: 15px;
+  }
+
+  .location-slides {
+    width: 49%;
+    margin-bottom: 10px;
+  }
+
+  .location-text {
+    padding: 10px;
+  }
+
+  .location-text h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .location-text p {
+    margin-bottom: 10px;
+  }
+
+  .location-text span {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .padding-btm {
+    padding-bottom: 30px;
+  }
+
+  .testimonials-slides p {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:480px) {
+  .gap {
+    padding: 15px 0;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+
+  .col-25 {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .common-text {
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .call-btn a {
+    padding: 5px 15px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+
+  .toggle {
+    padding: 5px 15px;
+  }
+
+  .toggle i {
+    font-size: 16px;
+  }
+
+  .inner-menu {
+    width: 100%;
+    left: 0;
+  }
+
+  .booking-form input,
+  .booking-form select {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .hero-text {
+    margin-bottom: 10px;
+  }
+
+  .airlines-area {
+    width: calc(100% / 3);
+  }
+
+  .location-slides {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .padding-btm {
+    padding-bottom: 15px;
+  }
+}

@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 44px;
+  line-height: 1.1;
+}
+
+h5 {
+  font-size: 26px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.gap {
+  padding: 50px 0;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-bw {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.pos-relate {
+  position: relative;
+}
+
+span {
+  color: #8b3eea;
+}
+
+.col-25 {
+  width: 24%;
+}
+
+.col-50 {
+  width: 49%;
+}
+
+.col-40 {
+  width: 39%;
+}
+
+.col-60 {
+  width: 59%;
+}
+
+.common-text {
+  margin-bottom: 30px;
+}
+
+.padding-btm {
+  padding-bottom: 50px;
+}
+
+.lpad {
+  padding-left: 50px;
+}
+
+/* homepage css */
+header {
+  background-color: #8b3eea;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+  display: block;
+}
+
+.call-btn {
+  display: flex;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.call-btn i {
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+  height: 30px;
+  margin-right: 10px;
+  width: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+
+.call-btn a {
+  color: #fff;
+  font-weight: 700;
+  display: block;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.toggle {
+  color: #000;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: 1px solid #000;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.toggle i {
+  font-size: 20px;
+  color: #000;
+}
+
+.side-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  transition: background-color .5s ease;
+  z-index: 999;
+  display: none;
+}
+
+.inner-menu {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 440px;
+  left: auto;
+  margin: 20px 20px 20px 0;
+  border-radius: 20px;
+  animation: right-slide .5s ease forwards;
+}
+
+@keyframes right-slide {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.menu-top {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 25px;
+  height: 25px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.menu-top i {
+  color: #000;
+  font-size: 14px;
+}
+
+.menu-body {
+  margin-top: 60px;
+}
+
+.menu-body ul li {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 20px;
+}
+
+.menu-body ul li:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+
+.menu-body ul li i {
+  color: #000;
+  font-size: 14px;
+}
+
+.menu-body ul.dropMenu {
+  position: absolute;
+  background: #fff;
+  width: 440px;
+  left: 0;
+  top: 45px;
+  border-radius: 0px;
+  display: none;
+  z-index: 999;
+  height: 200px;
+  overflow-x: auto;
+}
+
+.menu-body ul.dropMenu li {
+  margin: 0;
+  padding: 5px 0 5px 20px;
+  border: none;
+}
+
+.menu-body ul.dropMenu li a {
+  color: #6a6971;
+}
+
+@media(max-width:1023px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+}
+
+@media(max-width:767px) {
+  .gap {
+    padding: 30px 0;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+
+  .col-25 {
+    width: 49%;
+  }
+
+  .col-40 {
+    width: 100%;
+  }
+
+  .col-60 {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .common-text {
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    margin-bottom: 15px;
+  }
+
+  .location-slides {
+    width: 49%;
+    margin-bottom: 10px;
+  }
+
+  .location-text {
+    padding: 10px;
+  }
+
+  .location-text h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .location-text p {
+    margin-bottom: 10px;
+  }
+
+  .location-text span {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .padding-btm {
+    padding-bottom: 30px;
+  }
+
+  .testimonials-slides p {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:480px) {
+  .gap {
+    padding: 15px 0;
+  }
+
+  .col-50 {
+    width: 100%;
+  }
+
+  .col-25 {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+
+  h1 br {
+    display: none;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .common-text {
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .call-btn a {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+
+  .toggle {
+    padding: 5px 15px;
+  }
+
+  .toggle i {
+    font-size: 16px;
+  }
+
+  .inner-menu {
+    width: 100%;
+    left: 0;
+  }
+
+  .booking-form input,
+  .booking-form select {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .hero-text {
+    margin-bottom: 10px;
+  }
+
+  .airlines-area {
+    width: calc(100% / 3);
+  }
+
+  .location-slides {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .padding-btm {
+    padding-bottom: 15px;
+  }
+}

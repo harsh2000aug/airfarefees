@@ -1,0 +1,335 @@
+.cm-flight-result-wrapper {
+  background-color: #d1e1e7;
+}
+
+.cm-fl-res-item {
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+}
+
+.book-btn {
+  background: var(--primCol);
+  color: var(--whiteCol);
+  padding: 4px 20px;
+  border-radius: 17px;
+  display: inline-block;
+  border: 2px solid transparent;
+  transition: 0.3s;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.button-col p,
+.total-price p {
+  margin-bottom: 0;
+}
+
+.button-col p span {
+  color: var(--primCol);
+  font-weight: 500;
+}
+
+.cm-fl-res-item-it-sum-wrap {
+  padding: 0 0 15px;
+}
+
+.button-col {
+  padding-right: 15px;
+}
+
+.cm-fl-res-item-header {
+  padding: 10px 15px 5px;
+}
+
+.cm-fl-res-item-header h4 {
+  font-size: 16px;
+}
+
+.cm-fl-res-item p {
+  font-size: 14px;
+}
+
+span.cm-airport-name {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.flight-summery-detail .cm-fl-res-item-it-sum-item {
+  padding: 5px 0;
+  border-bottom: 1px dashed #0064e9;
+}
+
+.flight-summery-detail .cm-fl-res-item-it-sum-item:last-of-type {
+  border: none;
+}
+
+.cm-fl-res-item-it-sum-item>.cm-col {
+  padding: 0 15px;
+}
+
+.cm-fl-res-item-it-sum-item>.cm-col p {
+  margin-bottom: 0;
+}
+
+.cm-fl-res-item-it-sum-item>.cm-col2 {
+  width: 180px;
+}
+
+.cm-fl-path .fa-location-dot {
+  position: absolute;
+  left: -3px;
+  top: calc(50% - 15px);
+  color: #999;
+}
+
+.cm-fl-path .fa-location-dot:last-child {
+  left: unset;
+  right: -3px;
+}
+
+.cm-fl-path:before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1px);
+  height: 2px;
+  width: 100%;
+  border-top: 2px dotted #999;
+  left: 0;
+}
+
+.cm-fl-path {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.cm-fl-path .fa-plane {
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+  top: 2px;
+}
+
+.cm-fl-res-item-it-sum-item>.cm-col2>span {
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.cm-fl-res-item-it-sum-item>.cm-col3 {
+  text-align: right;
+}
+
+.cm-fl-res-accord .cm-acc-toggler {
+  background-color: #eee;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.cm-fl-res-accord .cm-acc-toggler {
+  background-color: #eee;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.cm-fl-accord-tab>li {
+  padding: 8px 15px;
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 1px solid #eee;
+  border-top: none;
+}
+
+.cm-fl-accord-tab>li.active-tab {
+  background-color: var(--secCol2);
+  color: var(--whiteCol);
+}
+
+.cm-iti-item>h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cm-iti-item>h2 i {
+  padding-right: 10px;
+}
+
+.cm-iti-item .cm-content .cm-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.cm-iti-item .cm-content .cm-col2,
+.cm-iti-item .cm-content .cm-col3 {
+  text-align: center;
+}
+
+.cm-iti-item .cm-content .cm-col4 {
+  text-align: right;
+}
+
+.cm-fl-res-fares-tab,
+.cm-iti-item .cm-content {
+  padding: 15px 0;
+}
+
+.cm-iti-item .cm-content .cm-col h4 {
+  font-size: 18px;
+}
+
+.cm-iti-item .cm-content .cm-col p {
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.cm-iti-item .cm-content .cm-col p+p {
+  color: var(--secCol);
+}
+
+.cm-fl-res-fares-tab table th {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.cm-fl-res-fares-tab table {
+  width: 100%;
+}
+
+.cm-fl-res-fares-tab table td {
+  padding: 5px;
+  text-align: center;
+}
+
+.cm-fl-res-accord {
+  border: 1px solid #eeee;
+  border-top: none;
+}
+
+.baggage-policy-select ul {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.baggage-policy-select ul li {
+  width: 40px;
+}
+
+.baggage-policy-select ul .relative {
+  position: relative;
+}
+
+.baggage-policy-select ul .relative .top_icon {
+  position: absolute;
+  bottom: 0;
+}
+
+.baggage-policy-select ul {
+  list-style: none;
+}
+
+.baggage-policy-select ul .relative .top_icon {
+  position: absolute;
+  bottom: 0px;
+  right: -8px;
+}
+
+.baggage-policy-select ul .relative .top_icon img {
+  width: 15px;
+}
+
+.baggage-policy-select ul .relative img {
+  width: 20px;
+  height: 21px;
+}
+
+.baggage-policy-select {
+  margin-top: 10px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1023px) {
+  .cm-iti-item>h2 {
+    font-size: 16px;
+  }
+
+  .cm-fl-res-item-header>.cm-col {
+    width: 50%;
+  }
+
+  .cm-fl-res-item-header>.cm-col3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .cm-fl-res-item .cm-fl-res-item-header {
+    flex-wrap: wrap;
+  }
+
+  .cm-fl-res-item-header>.cm-col3 .cm-btn {
+    width: 100%;
+  }
+
+  .cm-fl-res-item-it-sum-item {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .total-price {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .cm-iti-item .cm-content .cm-col,
+  .cm-fl-res-item-it-sum-item>.cm-col {
+    width: 35%;
+    text-align: center;
+  }
+
+  .cm-iti-item .cm-content,
+  .cm-fl-res-item-it-sum-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cm-iti-item .cm-content .cm-col+.cm-col,
+  .cm-fl-res-item-it-sum-item>.cm-col+.cm-col {
+    margin-top: 15px;
+  }
+
+  .cm-fl-res-item-it-sum-item>.cm-col2 {
+    width: 100px;
+  }
+
+  .flight-summery-detail {
+    flex-wrap: wrap;
+  }
+
+  .flight-summery-detail .cm-fl-res-item-it-sum-wrap,
+  .tex-button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cm-fl-res-item-header>.cm-col2 h3 {
+    font-size: 22px;
+  }
+
+  .cm-fl-res-item p {
+    font-size: 12px;
+  }
+
+  .cm-fl-res-item-header .cm-col1 h4 {
+    font-size: 16px;
+  }
+}

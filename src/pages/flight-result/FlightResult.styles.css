@@ -1,0 +1,261 @@
+.cm-flight-result-wrapper .cm-filter-sidebar {
+  width: 260px;
+  position: sticky;
+  top: 20px;
+}
+
+.cm-filter-sidebar .inner-sidebar {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+
+}
+
+.sidebar-desktop {
+  height: 450px;
+  overflow-y: scroll;
+  position: sticky;
+  top: 30px;
+}
+
+.add-col {
+  width: 200px;
+  top: 20px;
+  position: sticky;
+}
+
+.add-col img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.social-media-add {
+  text-align: center;
+}
+
+.social-media-add img {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.cm-flight-result-wrapper .cm-result-wrap {
+  width: calc(100% - 460px);
+}
+
+.cm-filter-sidebar .cm-filter-widget+.cm-filter-widget {
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.cm-filter-widget li label {
+  display: flex;
+  user-select: none;
+}
+
+.cm-filter-sidebar .cm-filter-widget li+li {
+  margin-top: 10px;
+}
+
+.cm-filter-widget li input[type="checkbox"] {
+  width: 13px;
+}
+
+.cm-filter-sidebar .cm-filter-widget h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cm-filter-sidebar .cm-filter-widget li span {
+  padding-left: 10px;
+  width: calc(100% - 13px);
+  font-size: 12px;
+}
+
+.mobile-tabs {
+  display: none;
+}
+
+.header-block-modal {
+  width: 100%;
+}
+
+.modal-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  position: relative;
+  background-color: var(--primCol);
+  align-items: center;
+  color: white;
+}
+
+.modal-text i {
+  padding: 10px;
+}
+
+.modal-text span.edit {
+  border: 1px solid #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 10px;
+  display: block;
+}
+
+.modal-text span {
+  color: #fff;
+}
+
+ul.modal-list li.modal-text i {
+  font-size: 12px;
+}
+
+.form-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 999;
+}
+
+/* Close button */
+.close-bttn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .add-col {
+    display: none;
+  }
+
+  .social-media-add {
+    display: none;
+  }
+
+  .cm-flight-result-wrapper .cm-page-center {
+    flex-wrap: wrap;
+  }
+
+  .cm-flight-result-wrapper .cm-filter-sidebar,
+  .cm-flight-result-wrapper .cm-result-wrap {
+    width: 100%;
+  }
+
+  .cm-flight-result-wrapper .cm-result-wrap {
+    margin-top: 0px;
+  }
+
+  .mobile-tabs {
+    display: block;
+  }
+
+  .sidebar-wrapper {
+    display: none;
+  }
+
+  .tabs-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .tabs-header p {
+    margin-bottom: 0;
+  }
+
+  .tabs-header button {
+    margin-left: 10px;
+    background: transparent;
+    border: 0.5px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+
+  .tabs-header button.active {
+    background-color: #ff921a;
+    color: #fff;
+  }
+
+  .new-cm-section {
+    padding-top: 0;
+  }
+
+  .cm-lr-pad {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .new-cm-section {
+    padding-top: 0;
+  }
+
+  .tabs-header button {
+    margin-left: 5px;
+    background: transparent;
+    border: 0.5px solid #ccc;
+    padding: 5px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    overflow-x: scroll;
+  }
+
+  .tabs-header p {
+    font-size: 12px;
+  }
+
+  .mobile-tabs {
+    position: relative;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    z-index: 99999;
+    overflow: scroll;
+  }
+
+  .modal-content .done-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #8b3eea;
+  }
+
+  .modal-content span.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+
+  .modal-content span.close-btn i {
+    font-size: 16px;
+  }
+
+  .modal-content h2,
+  .modal-content p {
+    text-align: center;
+  }
+
+  .cm-flight-result-wrapper .cm-filter-sidebar {
+    position: unset;
+  }
+}
