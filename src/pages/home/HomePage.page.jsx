@@ -208,20 +208,6 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="gap">
-        <div className="container">
-          <div class="service-text">
-            <h2><span>About</span> Airfarefees</h2>
-          </div>
-          <div className="flex space-bw">
-            <div className="col-50"></div>
-            <div className="col-50">
-              <img src="" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="gap calltoact">
         <div className="container flex space-bw">
           <div className="col-40 smiling-girl">

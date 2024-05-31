@@ -108,9 +108,6 @@ span {
 }
 
 /* homepage css */
-header {
-  background-color: #8b3eea;
-}
 
 nav {
   padding: 10px 0;
@@ -128,13 +125,13 @@ nav {
 .call-btn {
   display: flex;
   align-items: center;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 5px;
   padding: 6px;
 }
 
 .call-btn i {
-  background-color: #fff;
+  background-color: #000;
   border-radius: 50%;
   font-size: 14px;
   height: 30px;
@@ -143,11 +140,11 @@ nav {
   align-items: center;
   display: flex;
   justify-content: center;
-  color: #000;
+  color: #fff;
 }
 
 .call-btn a {
-  color: #fff;
+  color: #000;
   font-weight: 700;
   display: block;
   margin-right: 10px;

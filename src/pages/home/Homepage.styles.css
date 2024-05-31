@@ -282,6 +282,10 @@
   display: inline-block;
 }
 
+.smiling-girl a:hover {
+  color: #8b3eea;
+}
+
 .smiling-girl a i {
   margin-right: 10px;
   font-size: 26px;
