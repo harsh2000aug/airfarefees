@@ -6,7 +6,7 @@ import calling from "../../assets/images/flight/calling.png";
 import logo from "../../assets/images/flight/logo-new.png";
 import { phoneNum } from "../../utils/globalVars";
 
-const CtaPopup = ({ dataToSend }) => {
+const CtaPopup = ({ dataToSend, setPussyupState }) => {
   const [ctaPopStatus, setCtaPopStatus] = React.useState(true);
 
   return (
@@ -17,7 +17,7 @@ const CtaPopup = ({ dataToSend }) => {
       <div className="cm-cta-pop-wrapper cm-white-bg cm-pos-relative">
         <div
           className="cm-close cm-flex-type-2 cm-pointer"
-          onClick={() => setCtaPopStatus(false)}
+          onClick={() => { setCtaPopStatus(false); setPussyupState(false); }}
         >
           <i className="fa-solid fa-xmark"></i>
         </div>

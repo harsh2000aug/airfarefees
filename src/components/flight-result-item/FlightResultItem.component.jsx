@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import SlideToggle from "react-slide-toggle";
 import moment from "moment";
 import { charges } from '../../utils/charges';
@@ -7,6 +7,7 @@ import { countrySign } from "../../utils/cuntryname";
 
 import "./FlightResultItem.styles.css";
 import { useSelector } from "react-redux";
+import CtaPopup from "../cta-popup/CtaPopup.component";
 
 const FlightResultItem = ({
   flData,
@@ -285,8 +286,12 @@ const FlightResultItem = ({
 
 
   // let test = parseFloat(flightTotal) + 340.97
+  const [pussyupState, setPussyupState] = useState(false);
   return (
     <div className="cm-fl-res-item">
+      {pussyupState &&
+        <CtaPopup setPussyupState={setPussyupState} />
+      }
       <div className="cm-fl-res-item-header cm-flex-type-1">
         <h4>
           {/* <img src={`https://cmsrepository.com/static/flights/flight/airlinelogo-png/1.png`} style={{width:'30px',marginRight:'20px'}} /> */}
@@ -318,10 +323,11 @@ const FlightResultItem = ({
                 price.
               </p>
               <span
-                onClick={handleBookNow}
+                onClick={() => setPussyupState(true)}
+                // onClick={handleBookNow}
                 className="book-btn"
               >
-                <i className="fa-solid fa-plane-engines"></i> Book Now
+                <i className="fa-solid fa-plane-engines"></i> Call Now
               </span>
               <div className="baggage-policy-select">
                 <ul>
